@@ -1,0 +1,43 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "kitshn <span style='-webkit-text-fill-color: var(--vp-badge-danger-text) !important' class='VPBadge danger'>alpha</span>"
+  text: "Unofficial Tandoor recipes client"
+  tagline: Built with Jetpack Compose and Material You
+  image:
+    src: /images/logo.png
+    alt: kitshn logo
+  actions:
+    - theme: brand
+      text: Download app
+      link: /download
+    - theme: alt
+      text: Screenshots
+      link: /screenshots
+features:
+  - icon: 🚀
+    title: Responsive design
+    details: Looks great on phones, foldables and tablets
+    link: /screenshots#home-recipe-view
+  - icon: ✨
+    title: Dynamic home screen
+    details: Shows dynamic recommendations
+    link: /screenshots#home-recipe-view
+  - icon: 👩‍🍳
+    title: Cooking mode
+    details: Fullscreen layout for easy cooking
+    link: /screenshots#cooking-mode
+  - icon: 🔎
+    title: Extensive search
+    details: Supports (almost) everything Tandoor has to offer
+    link: /screenshots#search
+  - icon: ✍️
+    title: Supports markdown
+    details: Displays instructions in all rich text glory
+  - icon: 🧰
+    title: Unique tools
+    details: Allocate ingredients or combine steps
+    link: /screenshots#tools
+---
