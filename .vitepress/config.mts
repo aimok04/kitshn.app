@@ -18,6 +18,7 @@ export default defineConfig({
       {
         text: 'App',
         items: [
+          { text: "Translate", link: "/translate" },
           { text: 'Download', link: '/download' },
           { text: 'Screenshots', link: '/screenshots' }
         ]

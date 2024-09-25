@@ -16,6 +16,9 @@ hero:
     - theme: alt
       text: Screenshots
       link: /screenshots
+    - theme: alt
+      text: Translate
+      link: /translate
 features:
   - icon: 🚀
     title: Responsive design
