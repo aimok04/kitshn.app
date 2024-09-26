@@ -10,7 +10,7 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Create issue', link: 'https://github.com/aimok04/kitshn/issues/new' },
+      { text: 'Docs', link: '/docs/translate' },
       { text: 'Contact', link: '/contact' }
     ],
 
@@ -18,7 +18,6 @@ export default defineConfig({
       {
         text: 'App',
         items: [
-          { text: "Translate", link: "/translate" },
           { text: 'Download', link: '/download' },
           { text: 'Screenshots', link: '/screenshots' }
         ]
@@ -27,6 +26,19 @@ export default defineConfig({
         text: 'Other',
         items: [
           { text: 'Contact', link: '/contact' }
+        ]
+      },
+      {
+        text: 'Docs',
+        items: [
+          { text: "Translate", link: "/docs/translate" },
+          { 
+            text: 'Features', 
+            items: [
+              { text: "Share wrapping", link: "/docs/features/share-wrapping" },
+              { text: "Embedding videos inside steps", link: "/docs/features/embedding-videos-inside-steps" }
+            ]
+          }
         ]
       }
     ],
