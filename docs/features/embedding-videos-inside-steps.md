@@ -6,7 +6,7 @@ description: kitshn supports playing videos associated with individual steps.
 
 # Embedding videos inside steps <Badge style="margin-top: 14px" type="tip" text="v1.0.0-alpha.9" />
 
-kitshn supports playing videos associated with individual steps. Due to restrictions within the Tandoor api, files need to include » **video** « in their respective names to be able to be detected by kitshn.
+kitshn supports playing videos associated with individual steps. Due to restrictions within the Tandoor API, files need to include » **video** « in their respective names to be able to be detected by kitshn.
 
 ___
 
