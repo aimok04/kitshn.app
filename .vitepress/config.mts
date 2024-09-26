@@ -32,6 +32,7 @@ export default defineConfig({
         text: 'Docs',
         items: [
           { text: "Translate", link: "/docs/translate" },
+          { text: "Build & Config", link: "/docs/build-and-config" },
           { 
             text: 'Features', 
             items: [
