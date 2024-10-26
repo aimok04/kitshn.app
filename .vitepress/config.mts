@@ -37,7 +37,8 @@ export default defineConfig({
             text: 'Features', 
             items: [
               { text: "Share wrapping", link: "/docs/features/share-wrapping" },
-              { text: "Embedding videos inside steps", link: "/docs/features/embedding-videos-inside-steps" }
+              { text: "Embedding videos inside steps", link: "/docs/features/embedding-videos-inside-steps" },
+              { text: "Templating", link: "/docs/features/templating" },
             ]
           }
         ]
