@@ -1,5 +1,5 @@
 ---
-description: You can help translate kitshn on Transifex.
+description: You can help translate kitshn on Weblate.
 head:
   - - meta
     - http-equiv: refresh
