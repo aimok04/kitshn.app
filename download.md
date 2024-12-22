@@ -14,7 +14,7 @@ onMounted(async () => {
 })
 </script>
 
-# Download <Badge style="margin-top: 14px" type="tip" :text="gh?.[0]?.name || '...'" />
+# Download <Badge style="margin-top: 14px" type="tip" :text="gh?.[1]?.name || '...'" />
 
 ::: tip
 F-Droid releases are delayed by up to one week. Use **IzzyOnDroid**, **Obtainium** or **Google Play** to receive updates faster.
