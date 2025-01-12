@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "kitshn <span style='-webkit-text-fill-color: var(--vp-badge-danger-text) !important' class='VPBadge danger'>alpha</span>"
+  name: "kitshn"
   text: "Unofficial Tandoor recipes client"
   tagline: Built with Jetpack Compose and Material You
   image:
