@@ -11,10 +11,12 @@ const gh = ref([])
 onMounted(async () => {
   const ghres = await fetch('https://api.github.com/repos/aimok04/kitshn/releases')
   gh.value = await ghres.json()
+  
+  if(gh.value[0]?.name === "nightly") gh.value.shift()
 })
 </script>
 
-# Download <Badge style="margin-top: 14px" type="tip" :text="gh?.[1]?.name || '...'" />
+# Download <Badge style="margin-top: 14px" type="tip" :text="gh?.[0]?.name || '...'" />
 
 ::: tip
 F-Droid releases are delayed by up to one week. Use **IzzyOnDroid**, **Obtainium** or **Google Play** to receive updates faster.
@@ -31,6 +33,12 @@ F-Droid releases are delayed by up to one week. Use **IzzyOnDroid**, **Obtainium
 Signed by myself, verified open source with [reproducible builds](https://f-droid.org/docs/Reproducible_Builds/).
 
 <badge src="fdroid" label="F-Droid" link="https://f-droid.org/de/packages/de.kitshn.android/" />
+
+## iOS and iPadOS
+<div style="display: flex; flex-direction: row; flex-wrap: wrap">
+  <badge src="apple" label="App Store" link="https://apps.apple.com/us/app/kitshn-for-tandoor/id6740168361" />
+  <badge src="altsource" label="AltSource" link="/altsource" />
+</div>
 
 ## Signed by Google
 ::: danger

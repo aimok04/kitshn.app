@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "kitshn"
   text: "Unofficial Tandoor recipes client"
-  tagline: Built with Jetpack Compose and Material You
+  tagline: Built with Compose Multiplatform and Material You<br>Available for Android and iOS
   image:
     src: /images/logo.png
     alt: kitshn logo
