@@ -25,7 +25,8 @@ export default defineConfig({
       {
         text: 'Other',
         items: [
-          { text: 'Contact', link: '/contact' }
+          { text: 'Contact', link: '/contact' },
+          { text: 'Funding', link: '/funding' }
         ]
       },
       {
