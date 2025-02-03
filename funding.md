@@ -45,6 +45,7 @@ The kitshn project produces recurring costs. You can help cover these costs by d
 ### Current goal
 
 This goal gets updated automatically and collects all sources of income.
+There might be some inaccuracy due to transaction and platform fees.
 
 <table>
     <thead>
