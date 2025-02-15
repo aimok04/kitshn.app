@@ -37,7 +37,6 @@ Signed by myself, verified open source with [reproducible builds](https://f-droi
 ## iOS and iPadOS
 <div style="display: flex; flex-direction: row; flex-wrap: wrap">
   <badge src="apple" label="App Store" link="https://apps.apple.com/us/app/kitshn-for-tandoor/id6740168361" />
-  <badge src="altsource" label="AltSource" link="/altsource" />
 </div>
 
 ## Signed by Google
